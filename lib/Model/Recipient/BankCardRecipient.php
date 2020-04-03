@@ -43,7 +43,7 @@ use YandexCheckoutPayout\Common\Helpers\TypeCast;
  *                 ->setDocNumber('1234567890')
  *                 ->setPofOfferAccepted(true)
  *                 ->setPdrDocIssueDate('01.02.2018')
- *                 ->setSmsPhoneNumber('79999999999')
+ *                 ->setSmsPhoneNumber('79000000000')
  *                 ->setSkrDestinationCardSynonym('R8zigwjuuzlxmfOfJ8SPDzLU.SC.000.202002');
  *
  *      $depositionRequest = new MakeDepositionRequest();

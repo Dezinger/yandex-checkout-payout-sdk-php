@@ -125,7 +125,7 @@ class AbstractRecipientTest extends TestCase
                 ->setDocNumber(777745)
                 ->setPdrBirthDate('05.03.1993')
                 ->setPdrAddress('Ст1 88 23')
-                ->setSmsPhoneNumber(79990007788)
+                ->setSmsPhoneNumber(79000000000)
                 ->setPdrDocIssueDate('03.03.2010');
         } catch (Exception $e) {
             $this->fail($e->getMessage());

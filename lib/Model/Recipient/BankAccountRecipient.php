@@ -53,7 +53,7 @@ use YandexCheckoutPayout\Common\Helpers\TypeCast;
  *                ->setPdrBirthDate('05.05.1990')
  *                ->setPdrAddress('пос. Большие Васюки, ул. Комиссара Козявкина, д. 4')
  *                ->setDocNumber('4002109067')
- *                ->setSmsPhoneNumber('79653457676');
+ *                ->setSmsPhoneNumber('79000000000');
  *
  *      $depositionRequest = new MakeDepositionRequest();
  *      $depositionRequest->setPaymentParams($recipient);

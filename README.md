@@ -148,7 +148,7 @@ $recipient->setPdrLastName('Иванов')
            ->setDocNumber('1234567890')
            ->setPofOfferAccepted(true)
            ->setPdrDocIssueDate('01.02.2018')
-           ->setSmsPhoneNumber('79099585455')
+           ->setSmsPhoneNumber('79000000000')
            ->setPaymentPurpose('Назначение выплаты')->setBankBIK(5435435435)->setBankCorAccount('');
 
 // Проведение выплаты
