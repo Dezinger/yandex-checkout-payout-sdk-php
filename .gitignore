@@ -1,7 +1,0 @@
-.idea
-vendor
-output
-composer.lock
-*.cer
-!deposit.cer
-*.key
