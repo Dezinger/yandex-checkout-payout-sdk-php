@@ -61,7 +61,7 @@ use YandexCheckoutPayout\Request\TestDepositionRequest;
  */
 class Client extends CurlClient
 {
-    const SDK_VERSION = '0.0.2';
+    const SDK_VERSION = '1.0.0';
 
     const PAYOUT_REQUEST_ENDPOINT  = "https://calypso.yamoney.ru:9094/";
     const SYNONYM_REQUEST_ENDPOINT = "https://paymentcard.yamoney.ru/";
