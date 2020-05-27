@@ -61,7 +61,7 @@ use YandexCheckoutPayout\Request\TestDepositionRequest;
  */
 class Client extends CurlClient
 {
-    const SDK_VERSION = '1.0.0';
+    const SDK_VERSION = '1.0.1';
 
     const PAYOUT_REQUEST_ENDPOINT  = "https://calypso.yamoney.ru:9094/";
     const SYNONYM_REQUEST_ENDPOINT = "https://paymentcard.yamoney.ru/";
@@ -102,8 +102,9 @@ class Client extends CurlClient
         if (is_array($request)) {
             if (isset($request['name']) && $request['name'] === 'makeDeposition') {
                 $request = MakeDepositionRequest::getBuilder($clientOrderId)->build($request);
+            } else {
+                $request = TestDepositionRequest::getBuilder($clientOrderId)->build($request);
             }
-            $request = TestDepositionRequest::getBuilder($clientOrderId)->build($request);
         }
 
         $requestEndpoint = str_replace('Request', '', $request->getRequestName());
