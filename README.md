@@ -158,3 +158,5 @@ $deposition->setDstAccount('25700120202056919')
        ->setCurrency(CurrencyCode::RUB)
        ->setContract('test')
        ->setPaymentParams($recipient);
+
+$client->createDeposition($deposition);
